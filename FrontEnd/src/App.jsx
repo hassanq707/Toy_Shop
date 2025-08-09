@@ -86,7 +86,7 @@ const App = ({ url }) => {
       <div className="flex-grow">
         {loading ? (
           <div className="flex justify-center items-center h-64">
-            <div className="h-12 w-12 rounded-full border-4 border-t-orange-700 border-r-transparent border-b-orange-700 border-l-transparent animate-spin"></div>
+            <div className="h-12 w-12 rounded-full border-4 border-t-teal-700 border-r-transparent border-b-teal-700 border-l-transparent animate-spin"></div>
           </div>
         ) : (
           <Outlet />
