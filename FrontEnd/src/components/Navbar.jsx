@@ -209,10 +209,7 @@ const Navbar = ({ setShowLoginInPopUp, url }) => {
                           alt="user"
                           className="w-12 h-12 object-cover rounded-full border-2 border-teal-300"
                         />
-                        <div>
-                          <h4 className="font-semibold text-gray-800">{name}</h4>
-                          <p className="text-sm text-teal-600">Premium Member</p>
-                        </div>
+                        
                       </div>
                     </div>
 
